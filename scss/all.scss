@@ -1,0 +1,90 @@
+@charset "utf-8";
+@import "reset", "variables";
+
+/* 공통 부분 */
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: $nomal-font;
+}
+
+.title {
+  font-size: 45px;
+  font-family: $font-title;
+  color: $darkNavy;
+  font-weight: bold;
+}
+
+.inner {
+  max-width: 1400px;
+  width: 90%;
+  margin: auto;
+}
+
+.main-slide-bg,
+.header,
+.main-banner,
+.video-slide,
+.mattress-master,
+.series,
+.review,
+.best,
+.showroom,
+.commend,
+section,
+.footer {
+  width: 100%;
+  max-width: 1980px;
+  margin: auto;
+}
+
+/* mouse click 강조 */
+@mixin mouseCursor {
+  position: relative;
+  img {
+    width: 30px;
+    position: absolute;
+    animation-name: click-pointer;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes click-pointer{
+    0%{opacity: 0; visibility: hidden;}
+    100%{opacity: 1; visibility: visible;}
+  }
+}
+.header {
+  .gnb {
+    li {
+      >a {
+        @include mouseCursor();
+      }
+    }
+  }
+  .login {
+    >a {
+      @include mouseCursor();
+    }
+  }
+}
+.modal {
+  .modal-wrap {
+    .tab-menu {
+      .event-title {
+        .tabmenu1-btn1 {
+          @include mouseCursor();
+          .click-pointer{
+            top: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+@import "main-slide-bg", "main-banner", "video-slide", "mattress-master", "series", "review", "best", "showroom", "commend", "footer", "quick-menu", "modal", "responsive";
