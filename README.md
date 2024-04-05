@@ -74,5 +74,5 @@
 <br>
 
 ## 이외 산출물
-  <a href="https://docs.google.com/presentation/d/1m0krwPAKqi0Bgv1yUEHXcAT1HNSAqTYwqr8LIufwdkE/edit?usp=sharing">
+  <a href="https://docs.google.com/viewer?url=pdf파일url?raw=True">
 <br>
