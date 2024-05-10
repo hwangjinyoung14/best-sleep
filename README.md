@@ -70,9 +70,6 @@
 <br>
 
 ## 호스팅 사이트
-  - ### [메인페이지](https://hwangjinyoung14.github.io/best-sleep/index.html/)
+  - ### [메인페이지](https://hwangjinyoung14.github.io/best-sleep/)
 <br>
-
-## 이외 산출물
-  <a href="https://docs.google.com/viewer?url=pdf파일url?raw=True">
-<br>
+>
